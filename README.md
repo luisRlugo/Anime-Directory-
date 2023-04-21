@@ -22,3 +22,7 @@ React, Javascript, HTML/CSS, Jikan Api
 Clone Repo,
 npm install - this will install dependencies,
 npm start - this will launch app
+
+# Demo
+
+https://willowy-kulfi-02bc7d.netlify.app/
