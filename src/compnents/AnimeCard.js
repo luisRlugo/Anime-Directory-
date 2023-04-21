@@ -13,7 +13,7 @@ export default function AnimeCard({ anime }) {
     setSelectedAnime(null);
   };
 
-  // Loaded component when anime data is fetched
+  // Loaded function when anime data is fetched
   const loaded = () => {
     return (
       <div className="animeGrid">
@@ -58,11 +58,11 @@ export default function AnimeCard({ anime }) {
     );
   };
 
-  // Loading component while fetching anime data
+  // Loading function while fetching anime data
   const loading = () => {
-    return <h1>Anime will Display below</h1>;
+    return <h1>No Anime to Display</h1>;
   };
 
-  // If anime data exists, show the loaded component, otherwise show the loading component
+  // If anime data exists, show the loaded function , otherwise show the loading function
   return anime ? loaded() : loading();
 }
