@@ -18,8 +18,8 @@ export default function AnimeCard({ anime }) {
     return (
       <div className="animeGrid">
         {/* Map through the anime data and display it */}
-        {anime.data.map((animeData, index) => (
-          <div key={index} className="animeCard">
+        {anime.data.map((animeData) => (
+          <div className="animeCard">
             <h2>{animeData.title}</h2>
             <img
               className="animeCardImage"
@@ -44,7 +44,6 @@ export default function AnimeCard({ anime }) {
               <p>Rating: {selectedAnime.rating}</p>
               <p>Rank: {selectedAnime.rank}</p>
               <p>Popularity: {selectedAnime.popularity}</p>
-
               <p>
                 More Details:{" "}
                 <a href={selectedAnime.url} target="_blank" rel="noreferrer">

@@ -8,10 +8,10 @@ I love anime and wanted to create a webiste where anyone can look up any anime a
 
 # Goals
 
-I want the webiste to automatic show up a list of popular anime
-I want to add a Filter so that the user can chose from certain genres
-I want to add a Manga page and have that generate any manga the user looks up
-I also want to add a characters pop up
+I want the webiste to automatic show up a list of popular anime.
+I want to add a Filter so that the user can chose from certain genres.
+I want to add a Manga page and have that generate any manga the user looks up.
+I also want to add a characters pop up.
 
 # Tech/framework used
 
@@ -19,6 +19,6 @@ React, Javascript, HTML/CSS, Jikan Api
 
 # Installation
 
-Clone Repo
-npm install - this will install dependencies
+Clone Repo,
+npm install - this will install dependencies,
 npm start - this will launch app
